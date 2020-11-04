@@ -24,7 +24,7 @@ end
 mixed_calls = ["Cloud!", "blah", "wee!", "Fire!", "Heart!"]
 def find_valid_calls(planeteer_calls)
   values = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
-  planeteer_calls.find{|word| values.include?(word)} #Reference https://stackoverflow.com/questions/8026300/check-for-multiple-items-in-array-using-include-ruby-beginner/8026362
+  planeteer_calls.find{|word| values.include?(word)} #Reference Jeremy Lynch https://stackoverflow.com/questions/8026300/check-for-multiple-items-in-array-using-include-ruby-beginner/8026362
   # valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
   # Use an Enumerable to check if any elements in the passed in array match the valid calls listed above
   # Return the first valid call found, or return nil if no valid calls are found
